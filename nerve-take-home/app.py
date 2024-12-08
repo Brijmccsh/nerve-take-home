@@ -7,7 +7,7 @@ from typing import List, Dict
 app = Flask(__name__)
 
 # OpenAI API Key
-openai.api_key = "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"
+openai.api_key = "OpenAI API key"
 
 # In-memory storage for chats and knowledge base
 knowledge_base: List[str] = []
